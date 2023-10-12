@@ -26,14 +26,14 @@ input.onButtonPressed(Button.A, function () {
   neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Black))
   neopixelStrip.show()
 
-  //Yellow
+  // Yellow
   neopixelStrip.setPixelColor(1, neopixel.colors(NeoPixelColors.Yellow))
   neopixelStrip.show()
   basic.pause(1000)
   neopixelStrip.setPixelColor(1, neopixel.colors(NeoPixelColors.Black))
   neopixelStrip.show()
 
-  //Red
+  // Red
   neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Red))
   neopixelStrip.show()
   basic.pause(1000)
