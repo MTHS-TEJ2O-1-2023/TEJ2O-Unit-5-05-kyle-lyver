@@ -1,10 +1,11 @@
 """
-Created by: Mr. Coxall
-Created on: Sep 2020
+Created by: Kyle Lyver
+Created on: Oct 2023
 This module is a Micro:bit MicroPython program
 """
 
 from microbit import *
+import neopixel
 
+np = neopixel.NeoPixel(pin16, 4)
 
-display.scroll("Hello, World!")
