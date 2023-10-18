@@ -22,6 +22,7 @@ while True:
         np[1] = (0, 0, 0)
         np.show()
         np[0] = (255, 0, 0)
-        np.show
+        np.show()
         sleep(1000)
         np[0] = (0, 0, 0)
+        np.show()
